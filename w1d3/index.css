@@ -8,7 +8,7 @@ body {
 section {
   margin-bottom: 15px;
   display: flex;
-  width: 35vw;
+  width: 30vw;
   min-width: 350px;
   justify-content: space-between;
   align-items: center;
@@ -31,17 +31,16 @@ input.checkbox {
 }
 
 .claim-div {
-  width: 37vw;
+  width: 32vw;
   display: flex;
   align-items: center;
 }
 
 .claim-div div {
-  width: 200px;
+  width: 400px;
 }
 
 .claim {
-  font-size: 0.8rem;
   text-justify: right;
 }
 
@@ -54,4 +53,29 @@ input.checkbox {
   background-color: rgb(38, 148, 221);
   padding: 2px 5px;
   border-radius: 3px;
+}
+
+.btn-container {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div button {
+  display: inline-block;
+  width: 41%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-top: -10px;
+}
+
+div button:nth-child(1) {
+  background-color: rgb(38, 148, 221);
+  color: white;
+}
+div button:nth-child(2) {
+  background-color: rgb(123, 187, 120);
+  color: white;
 }
