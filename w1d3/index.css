@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  margin-bottom: 15px;
+  display: flex;
+  width: 35vw;
+  min-width: 350px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(181, 181, 181);
+  width: 41%;
+}
+
+.long-input {
+  width: 100%;
+}
+
+input.checkbox {
+  width: 20px;
+}
+
+.claim-div {
+  width: 37vw;
+  display: flex;
+  align-items: center;
+}
+
+.claim-div div {
+  width: 200px;
+}
+
+.claim {
+  font-size: 0.8rem;
+  text-justify: right;
+}
+
+.term {
+  color: rgb(132, 184, 201);
+}
+.register {
+  display: inline-block;
+  color: white;
+  background-color: rgb(38, 148, 221);
+  padding: 2px 5px;
+  border-radius: 3px;
+}
