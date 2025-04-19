@@ -296,5 +296,3 @@ function takeFunction(fn) {
 function getFunctionName(fn) {
   return fn.name;
 }
-
-console.log(longestPalindrome("abacdedca"));
